@@ -48,13 +48,11 @@ class MyApp extends StatelessWidget {
                     color: Colors.white,
                   )),
               style: TextButton.styleFrom(
+                  shadowColor: Colors.black,
+                  elevation: 8,
                   backgroundColor: const Color(0xffEE8301),
                   padding:
                       const EdgeInsets.symmetric(horizontal: 100, vertical: 10),
-                  side: const BorderSide(
-                    width: 1,
-                    color: Colors.white,
-                  ),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20))),
               onPressed: () => print('Login'),
@@ -70,6 +68,8 @@ class MyApp extends StatelessWidget {
                     color: const Color(0xffEE8301),
                   )),
               style: TextButton.styleFrom(
+                  shadowColor: Colors.black,
+                  elevation: 8,
                   backgroundColor: Colors.white,
                   side: const BorderSide(width: 1, color: Color(0xffEE8301)),
                   padding:
